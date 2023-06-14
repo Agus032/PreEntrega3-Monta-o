@@ -12,11 +12,7 @@
         font-size: 12px;
     }
     
-    /*inicio*/
-    .ropa1{
-        display: none;
-    }
-    
+    /*inicio*/  
     .ropa-top{
         grid-template-columns: repeat(3,1fr);
         display: block;
@@ -26,8 +22,7 @@
     .ropa1{
         grid-row: span3;
     }
-    // seguir aca (en inicio dieseño responsive)
-    // ver video de grids para saber como seguir (grids 2) 
+
     .ropa-top div img{
         width: 100%;
         height: 100%;
@@ -60,6 +55,12 @@
         grid-gap: 100px 20px;
         margin: 1,5rem;  
     }
+
+    .ropa-top div img{
+        height: 50%;
+        width: 50%;   
+    }
+    
 
     /*Nosotros*/
     .cont-nos{

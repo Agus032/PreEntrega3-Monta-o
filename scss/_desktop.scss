@@ -7,13 +7,7 @@
     }
 
     /*Inicio*/
-    .ropa-top{
-        @include flex-row-around;
-        .ropa1, .ropa2{
-            border-radius: 2rem;
-        }
-    }
-
+ 
     .catgrid{
         display: grid;
         grid-template-areas: "cat1 cat2 cat3";

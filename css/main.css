@@ -18,8 +18,7 @@ a {
   text-decoration: none; }
 
 li {
-  color: #f4f4f4;
-  text-decoration: none; }
+  color: #f4f4f4; }
 
 img {
   border-radius: 10px; }
@@ -81,6 +80,21 @@ img {
   height: 100%;
   width: 100%;
   border-radius: 5px; }
+
+.preview-Rop div img {
+  height: 110%;
+  width: 100%; }
+
+.ropa-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.ropa1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 100px; }
 
 /* Nosotros */
 .nosgrid {
@@ -204,12 +218,6 @@ textarea {
   h1, h2 {
     font-size: 30px; }
   /*Inicio*/
-  .ropa-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-    .ropa-top .ropa1, .ropa-top .ropa2 {
-      border-radius: 2rem; }
   .catgrid {
     display: grid;
     grid-template-areas: "cat1 cat2 cat3";
@@ -283,8 +291,7 @@ a {
   text-decoration: none; }
 
 li {
-  color: #f4f4f4;
-  text-decoration: none; }
+  color: #f4f4f4; }
 
 img {
   border-radius: 10px; }
@@ -346,6 +353,21 @@ img {
   height: 100%;
   width: 100%;
   border-radius: 5px; }
+
+.preview-Rop div img {
+  height: 110%;
+  width: 100%; }
+
+.ropa-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.ropa1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 100px; }
 
 /* Nosotros */
 .nosgrid {
@@ -495,8 +517,7 @@ a {
   text-decoration: none; }
 
 li {
-  color: #f4f4f4;
-  text-decoration: none; }
+  color: #f4f4f4; }
 
 img {
   border-radius: 10px; }
@@ -558,6 +579,21 @@ img {
   height: 100%;
   width: 100%;
   border-radius: 5px; }
+
+.preview-Rop div img {
+  height: 110%;
+  width: 100%; }
+
+.ropa-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.ropa1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 100px; }
 
 /* Nosotros */
 .nosgrid {
@@ -696,8 +732,7 @@ a {
   text-decoration: none; }
 
 li {
-  color: #f4f4f4;
-  text-decoration: none; }
+  color: #f4f4f4; }
 
 img {
   border-radius: 10px; }
@@ -759,6 +794,21 @@ img {
   height: 100%;
   width: 100%;
   border-radius: 5px; }
+
+.preview-Rop div img {
+  height: 110%;
+  width: 100%; }
+
+.ropa-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.ropa1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 100px; }
 
 /* Nosotros */
 .nosgrid {
@@ -882,12 +932,6 @@ textarea {
   h1, h2 {
     font-size: 30px; }
   /*Inicio*/
-  .ropa-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-    .ropa-top .ropa1, .ropa-top .ropa2 {
-      border-radius: 2rem; }
   .catgrid {
     display: grid;
     grid-template-areas: "cat1 cat2 cat3";
@@ -948,8 +992,6 @@ textarea {
   h1, h2, legend {
     font-size: 12px; }
   /*inicio*/
-  .ropa1 {
-    display: none; }
   .ropa-top {
     grid-template-columns: repeat(3, 1fr);
     display: block;
@@ -979,6 +1021,9 @@ textarea {
     grid-template: repeat(2, 1fr)/repeat(2, 1fr);
     grid-gap: 100px 20px;
     margin: 1,5rem; }
+  .ropa-top div img {
+    height: 50%;
+    width: 50%; }
   /*Nosotros*/
   .cont-nos {
     display: grid;

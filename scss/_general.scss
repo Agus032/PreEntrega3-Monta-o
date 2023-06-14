@@ -25,7 +25,6 @@ a{
 
 li{
     color: $blanco;
-    text-decoration: none;
 }
 
 img{
@@ -85,14 +84,28 @@ img{
         @include flex-colum-around;
         align-items: center;
         padding: 17px;
-    }
+}
+
 
 .cat{
-        height: 100%;
-        width: 100%;
-        border-radius: 5px;
-    }
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
 
+.preview-Rop div img{
+    height: 110%;
+    width: 100%;
+}
+.ropa-top{
+    @include flex-row-center;
+}
+.ropa1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 100px;
+}
 
 /* Nosotros */
 .nosgrid{
@@ -215,6 +228,3 @@ input,
 .respuesta{
     margin-bottom: 50px;
 }
-
-
-

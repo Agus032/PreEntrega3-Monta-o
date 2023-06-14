@@ -20,43 +20,62 @@
 
 </head>
 <body>
-    <header class="cabezera" id="inicio">
-
-        <h1> Santana </h1>
-        <!-- Logo -->
-        <!-- <img id="top" src="../PAGINA/img/Copia de SANTANA.jpg" height="500px" alt="Logo del sitio"> -->
-        <!-- Fin del Logo -->
-        
+    <header class="container-fluid mx-auto">
         <!--Menu de navegacion-->
-        <nav class="nav">
-            <ul class="menu">
-                <li> <a href="index.html">Inicio</a> </li>
-                <li> <a href="pages/santanamayo.html">Santana mayorista</a> </li>
-                <li> 
-                    <a href="pages/catalogo.html">Catalogo</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Tops</a></li>
-                        <li><a href="#">Buzos</a></li>
-                        <li><a href="#">Remeras</a></li>
-                    </ul>
-                </li>
+        <nav class="navbar navbar-expand-lg fixed-top"
+        style="background-color: rgba(232, 232, 231, 0.91);">
 
-                <li> <a href="pages/faqs.html">FAQS</a> </li>
-                <li> <a href="pages/nosotros.html">Nosotros</a></li>
-            </ul>
+            <a 
+            href="../index.html"
+            class="navbar-brand mb-0 h1">
+            <img src="../img/Copia-santana.png" width="60" height="60">
+            Inicio
+            </a>
+            <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            class="navbar-toggler"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item active">
+                        <a href="/pages/santanamayo.html" class="nav-link">Santana Mayorista</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/pages/catalogo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Catalogo
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Remeras</a></li>
+                          <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Lenceria</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item active">
+                        <a href="/pages/faqs.html" class="nav-link">Faqs</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="/pages/nosotros.html" class="nav-link">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+
         </nav>
-        <!-- Fin de navegacion-->
-     </header>
+    </header>
     <!-- fin del encabezado -->
     
     <!-- img costados del main  -->
     <div class="ropa-top">
-        <div>
-            <img class="ropa1" src="img/ropa.jpg" alt="">
-        </div>
-        <div>
-            <img class="ropa2"  src="img/ropa.jpg" alt="">
-        </div>
+        <img class="ropa1" src="img/remera4.jpg" alt="">
     </div>
     <!-- fin img costados del main  -->
    
@@ -65,17 +84,17 @@
     <div class="catgrid" id="cont-carrusel">
         <div class="cat-bottom cat1 cat-item" id="item-cat1">
             <img class="cat" src="img/remera.webp" alt="Remeras">
-            <a href="#" class="button">Remeras</a>
+            <a href="#" class="button-rem">Remeras</a>
         </div>
 
         <div class="cat-bottom cat2 cat-item" id="item-cat2">
             <img class="cat" src="img/buzo.webp" alt="Buzos">
-            <a href="#" class="button">Buzos</a>
+            <a href="#" class="button-rem">Buzos</a>
         </div>
 
         <div class="cat-bottom cat3 cat-item" id="item-cat3">
             <img class="cat" src="img/tops.jpg" alt="Tops">
-            <a href="#" class="button">Tops</a>
+            <a href="#" class="button-rem">Tops</a>
         </div>
     </div>
 
@@ -97,12 +116,12 @@
         
         <div class="fts-rem3 cat-bottom">
             <img src="img/buzo1.webp" alt="">
-            <a href="#" class="button-rem">Remeras</a>
+            <a href="#" class="button-rem">Buzo Oversides</a>
         </div>
 
         <div class="fts-rem4 cat-bottom">
             <img src="img/buzo2.webp" alt="">
-            <a href="#" class="button-rem">Remeras</a>
+            <a href="#" class="button-rem">Buzo Oversides</a>
         </div>
     </div>
 
